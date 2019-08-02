@@ -2,10 +2,10 @@ cc.Class({
     extends: cc.Component,
 
     properties: {
-        label: {
-            default: null,
-            type: cc.Label
-        },
+        // label: {
+        //     default: null,
+        //     type: cc.Label
+        // },
         moveNode: {
             default: null,
             type: cc.Node
@@ -17,7 +17,7 @@ cc.Class({
     
     // use this for initialization
     onLoad: function () {
-        this.label.string = this.text;
+        // this.label.string = this.text;
 
         this.isCardPressed = false;
         this.touchPrePt = cc.Vec2();
